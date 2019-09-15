@@ -42,11 +42,7 @@
 
         <TextView
             android:textSize="16sp"
-            android:text="Bottom Sheet\n\nThese are just dummy texts,
-that are of no use to thie dkjsdfi the man in the fx is ju the
-girl in the house of his man is jus a dummpy text my piano is the best
-int the orlrld, just this is just hte onwe worlder of the world the quick borwn fox jumps over the lazy dog
-the quick brown fxo jumps voer the laxy dog"
+            android:text="@string/sample_text"
             android:padding="16dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />

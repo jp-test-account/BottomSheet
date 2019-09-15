@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">BottomSheet</string>
+    <string name="sample_text">This is a sample text, I am using this to understand how github works, well truth be told I have few confusions about merging and pull requests, this change is an attempt to clear my doubts.</string>
 </resources>

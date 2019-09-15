@@ -14,6 +14,8 @@ import android.view.View;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        // Sample comment to check how forked repo can be updated
+
         final View bottomSheet = findViewById(R.id.bottom_sheet);
         bottomSheetBehavior = BottomSheetBehavior.from(bottomSheet);
 

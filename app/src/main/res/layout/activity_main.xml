@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <LinearLayout
+       android:gravity="center"
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+       <Button
+           android:id="@+id/expand"
+           android:text="expand"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+
+       <Button
+           android:id="@+id/collapse"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="collapse" />
+
+
+   </LinearLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/bottom_sheet"
+        app:layout_behavior="@string/bottom_sheet_behavior"
+        app:behavior_hideable="true"
+        app:behavior_peekHeight="0dp"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="350dp">
+
+        <TextView
+            android:textSize="16sp"
+            android:text="Bottom Sheet\n\nThese are just dummy texts,
+that are of no use to thie dkjsdfi the man in the fx is ju the
+girl in the house of his man is jus a dummpy text my piano is the best
+int the orlrld, just this is just hte onwe worlder of the world the quick borwn fox jumps over the lazy dog
+the quick brown fxo jumps voer the laxy dog"
+            android:padding="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>
